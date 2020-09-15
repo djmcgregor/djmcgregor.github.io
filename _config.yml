@@ -25,8 +25,8 @@ url                      : "https://djmcgregor.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "djmcgregor/djmcgregor.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : "Home" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -96,11 +96,17 @@ analytics:
 # Site Author
 author:
   name             : *name #points to &anchor above
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile_img.jpg"
   bio              : "Additive Manufacturing Quality Researcher"
   location         : "Champaign, IL"
   email            :
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/djmcgregor"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/djmcgregor"
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
@@ -113,29 +119,26 @@ author:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/djmcgregor"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/djmcgregor"
 
 
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/djmcgregor"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/djmcgregor"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
       # url:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github-square"
-      url: "https://github.com/djmcgregor"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
       # url:
@@ -145,9 +148,6 @@ footer:
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/djmcgregor"
 
 
 # Reading Files
