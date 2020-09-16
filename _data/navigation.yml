@@ -1,7 +1,17 @@
 # main links
 main:
-  - title: "LinkedIn"
-    url: https://www.linkedin.com/in/djmcgregor/
+  - title: "Research"
+    url: /research/
+  - title: "Course Projects"
+    url: /coursework/
+  - title: "Publications"
+    url: /publications/
+  # - title: "CV/Scholastic"
+  #   url: /cv/
+  - title: "Hobbies"
+    url: /hobbies/
+  # - title: "LinkedIn"
+  #   url: https://www.linkedin.com/in/djmcgregor/
     # description: 'my linkedIn profile'
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
