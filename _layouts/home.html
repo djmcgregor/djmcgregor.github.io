@@ -5,6 +5,9 @@ layout: archive
 {{ content }}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<meta property="og:site_name" content="Site name"/>
+<meta property="og:title" content="Website Title"/>
+<meta property="og:description" content="This is my personal webpage, where I showcase my research, publications, and projects, and share relevant news and project developments."/>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
