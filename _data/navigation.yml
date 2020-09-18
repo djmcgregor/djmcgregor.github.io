@@ -2,10 +2,12 @@
 main:
   - title: "Research"
     url: /research/
-  - title: "Course Projects"
-    url: /coursework/
   - title: "Publications"
     url: /publications/
+  - title: "Projects"
+    url: /projects/
+  - title: "Posts"
+    url: /year-archive/
   # - title: "CV/Scholastic"
   #   url: /cv/
   - title: "Hobbies"
