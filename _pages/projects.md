@@ -1,12 +1,12 @@
 ---
 layout: single
-permalink: /coursework/
-title: "Course Projects"
+permalink: /projects/
+title: "Projects"
 excerpt: "More coming soon!"
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.4"
-  overlay_image: /assets/images/coursework/uiuc.jpg
+  overlay_image: /assets/images/projects/uiuc.jpg
   image_description: "UIUC Grainger Engineering Library"
   # caption: "Inverted drafting from flags. Credits: [**Leif Ristroph & Jun Zhang, NYU**](https://math.nyu.edu/~ristroph/)"
 last_modified_at: 2020-09-17T08:41:35-04:00
