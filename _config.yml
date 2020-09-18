@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "McGregor Home"
+title                    : "Davis J. McGregor"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Davis J. McGregor"
@@ -25,8 +25,8 @@ url                      : "https://djmcgregor.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : djmcgregor/djmcgregor.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Home" # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/assets/images/mcgregor_hex.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -286,7 +286,7 @@ defaults:
       type: posts
     values:
       layout: single
-      # show_date: true
+      show_date: true
       author_profile: true
       read_time: true
       comments: # true
