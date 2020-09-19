@@ -3,9 +3,9 @@ title: "2018 IUTAM Symposium"
 tags:
     - Additive Manufacturing
     - Conferences
-# header:
+header:
     # teaser: /assets/images/posts/lattice_crush500x300.jpg
-    # og_image: /assets/images/posts/lattice_crush500x300.jpg
+    og_image: /assets/images/posts/lattice_crush500x300.jpg
 excerpt: First mechanical tests of CLIP lattice parts.
 ---
 
