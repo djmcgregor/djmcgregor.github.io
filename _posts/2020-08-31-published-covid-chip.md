@@ -4,8 +4,8 @@ tags:
     - Additive Manufacturing
     - COVID-19
 header:
-    teaser: https://news.illinois.edu/files/6367/241622493/177543.jpg
-    og_image: https://news.illinois.edu/files/6367/241622493/177543.jpg
+    teaser: /assets/images/posts/2020-08-31-covid_microfluidic_chip500x300.jpg
+    og_image: /assets/images/posts/2020-08-31-covid_microfluidic_chip500x300.jpg
 excerpt: UIUC develops 30 minute COVID diagnostic device.
 ---
 

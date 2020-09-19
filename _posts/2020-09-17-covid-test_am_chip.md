@@ -4,7 +4,7 @@ tags:
     - Additive Manufacturing
     - COVID-19
 header:
-    teaser: https://3vdm581r73dj2a449q2mlu77-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/3dmixing_coloredarrows.png
+    teaser: /assets/images/posts/2020-09-17-3dmixing_coloredarrows500x300.png
     og_image: https://3vdm581r73dj2a449q2mlu77-wpengine.netdna-ssl.com/wp-content/uploads/2020/05/less_dexter34_openUI_on.png
 excerpt: UIUC and Fast Radius team up to develop COVID diagnostic.
 ---
