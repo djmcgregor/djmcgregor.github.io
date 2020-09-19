@@ -5,7 +5,6 @@ tags:
     - COVID-19
 header:
     teaser: /assets/images/posts/2020-08-31-covid_microfluidic_chip500x300.jpg
-    og_image: /assets/images/posts/2020-08-31-covid_microfluidic_chip500x300.jpg
 excerpt: UIUC develops 30 minute COVID diagnostic device.
 ---
 

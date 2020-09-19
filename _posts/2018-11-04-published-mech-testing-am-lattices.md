@@ -5,7 +5,6 @@ tags:
     - Publications
 header:
     teaser: /assets/images/posts/2018-11-04-lattice_testing500x300.png
-    # og_image: /assets/images/posts/lattice_crush500x300.jpg
 excerpt: Mechanical properties of hexagonal lattice structures fabricated using CLIP AM
 ---
 <figure>

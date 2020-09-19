@@ -5,7 +5,6 @@ tags:
     - Publications
 header:
     teaser: /assets/images/posts/2019-05-29-gradated_hex.jpg
-    # og_image: /assets/images/posts/2018-11-04-lattice_testing500x300.png
 excerpt: Automated metrology and geometric analysis of AM lattice structures
 ---
 <figure>
