@@ -12,6 +12,7 @@ excerpt: First mechanical tests of CLIP lattice parts.
 I recently attended the [International Union of Theoretical and Applied Mechanics (IUTAM) Symposium on Architectured Material Mechanics](https://engineering.purdue.edu/IUTAM2018AMS/)
 in Chicago, IL. In addition to networking with some of the leading experts in the field, I presented some preliminary research
 at a poster session. My work has been featured in several additive manufacturing magazines and downloaded over 400 times. 
+{: style="text-align: justify;"}
 
 [Symposium Proceedings](https://docs.lib.purdue.edu/iutam/presentations/abstracts/50/){: .btn .btn--info}
 

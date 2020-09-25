@@ -18,9 +18,11 @@ I've watched Mehmet work tirelessly on developing microfluidic mixing devices ov
 among such innovative colleagues and bounce ideas off each other. COVID testing is just one of many scenarios where rapid,
 point-of-care testing is essential to the health of a community. The linked UIUC press release and PNAS journal publication are 
 definitely worth a read.
+{: style="text-align: justify;"}
 
 <!-- <a href="https://news.illinois.edu/view/6367/241622493" class="btn btn--info">UIUC Press Release</a> <a href="https://doi.org/10.1073/pnas.2014739117" class="btn btn--info">PNAS Paper</a> -->
-[UIUC Press Release](https://news.illinois.edu/view/6367/241622493){: .btn .btn--info} [PNAS Publication](https://doi.org/10.1073/pnas.2014739117){: .btn .btn--info}
+[UIUC Press Release](https://news.illinois.edu/view/6367/241622493){: .btn .btn--info style="font-size: 1em;"}
+[PNAS Publication](https://doi.org/10.1073/pnas.2014739117){: .btn .btn--info style="font-size: 1em;"}
 
 ### Related LinkedIn Post
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6707130011415052288" height="444" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
