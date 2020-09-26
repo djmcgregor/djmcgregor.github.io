@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/research/hough_transform.png
   image_description: "Hough transform on hexagon"
   caption: "Hough Transform"
-last_modified_at: 2020-09-17T08:41:35-04:00
+last_modified_at: 2020-09-25T08:41:35-04:00
 king_research:
   - image_path: /assets/images/research/hex.png
     alt: "AM lattice qualification"
@@ -20,7 +20,7 @@ king_research:
     excerpt: "Computer vision metrology"
   - image_path: /assets/images/research/mat_distr.png
     alt: "feature distribution varies by material"
-    excerpt: "Variability decomposition"
+    excerpt: "Variance decomposition"
 # barton_research:
 #   - image_path: /assets/images/research/hex.png
 #     alt: "AM lattice qualification"
