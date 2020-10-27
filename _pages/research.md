@@ -17,7 +17,7 @@ king_research:
     excerpt: "AM qualification"
   - image_path: /assets/images/research/ot_heatmap.png
     alt: "AM octet truss metrology"
-    excerpt: "Computer vision metrology"
+    excerpt: "Machine vision metrology"
   - image_path: /assets/images/research/mat_distr.png
     alt: "feature distribution varies by material"
     excerpt: "Variance decomposition"
