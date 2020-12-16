@@ -1,4 +1,4 @@
-# Davis McGregor's personal website
+# Davis McGregor's personal website 
 
 This repository contains the contents for a website powered by [Jekyll](https://jekyllrb.com/) and 
 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/), and is served on [Github Pages](https://pages.github.com/).
