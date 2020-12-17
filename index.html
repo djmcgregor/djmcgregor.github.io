@@ -10,9 +10,9 @@ header:
   # caption: "Photo credit: **M. Congdon**"
   og_image: /assets/images/home/lattice_crush_411x274.jpg
   teaser: /assets/images/home/lattice_crush_411x274.jpg
-excerpt: "Welcome to my personal webpage."
+excerpt: "Welcome to my personal webpage"
 description: "This is my personal webpage, where I showcase my research, publications, and projects, and share relevant news and project developments."
-feature_row:
+preview_images:
   - image_path: /assets/images/home/lattice_crush_411x274.jpg
     alt: "AM lattice research"
     title: "Research"
@@ -35,13 +35,20 @@ feature_row:
     btn_class: "btn--primary"
     # btn_label: "Learn More"
 intro:
-  - excerpt: 'Current Ph.D. student in Mechanical Engineering at the University of Illinois at Urbana-Champaign (UIUC).'
-  - excerpt: ' My current research aims to answer whether production grade additive manufacturing (AM) can accurately and repeatedly produce lattice parts.
-  These lattice parts comprise hundreds of slender members, each of which can significantly impact the overall lattice performance. I have developed an
-  optically based, measurement protocol to quantify lattice part quality and compare predicted part performance to the designed performance. I currently 
-  employ this metrology to analyze large batches of AM parts, and explore the possibility of predicting AM part flaws using machine learning and statistics.'
+  - excerpt: 'Additive manufacturing (AM), also known as 3D printing, enables the scalable production of parts with extraordinarily 
+  complex geometries. These parts are poised to enrich several different industries, including aerospace, automotive, medical, and 
+  consumer markets. However, inspection of complex parts can be quite challenging, and the uncertainty of part quality limits the 
+  adoption of these parts in engineering applications. There is a pressing need for smart metrology approaches capable of efficiently 
+  measuring the complex geometries of AM parts.' 
+work:
+  - excerpt: 'My current research focuses on a novel, machine vision measurement system and analysis methods capable of automatically 
+  extracting thousands of geometric dimensions from part image data. I developed the measurement system in Python, using a number of 
+  different open-source packages. My advisors and I have published our work, detailing the measurement approach and applications where 
+  we automatically measure and analyze large batches of AM parts.'
 ---
+Mechanical Engineering Ph.D. Candidate  --  University of Illinois at Urbana-Champaign
 
 {% include feature_row id="intro" type="justify"%}
-
-{% include feature_row %}
+{% include feature_row id="work" type="justify"%}
+<br>
+{% include feature_row id="preview_images" %}
