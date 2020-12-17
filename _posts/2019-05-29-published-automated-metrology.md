@@ -10,7 +10,7 @@ excerpt: Automated metrology and geometric analysis of AM lattice structures
 <figure>
     <a href="/assets/images/posts/2019-05-29-metrology-lowres.jpg">
     <img src="/assets/images/posts/2019-05-29-metrology.jpg"></a>
-    <figcaption>Computer vision based analysis of complex lattice parts.</figcaption>
+    <figcaption>Machine vision based analysis of complex lattice parts.</figcaption>
 </figure>
 
 ![image-left](/assets/images/posts/AM_journal_cover50x70.jpg){: .align-left}
