@@ -95,11 +95,14 @@ analytics:
 
 # Site Author
 author:
-  name             : *name #points to &anchor above
-  avatar           : "/assets/images/profile_img.jpg"
-  bio              : "Additive Manufacturing Quality Researcher"
-  location         : "Champaign, IL"
-  email            :
+  name      : *name #points to &anchor above
+  avatar    : "/assets/images/profile_img.jpg"
+  bio       : "Additive Manufacturing Quality Researcher"
+  location  : "Champaign, IL"
+  # email     :
+  # linkedin  : "https://www.linkedin.com/in/djmcgregor"
+  # github    : "https://github.com/djmcgregor"
+  # youtube   :
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -107,24 +110,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/djmcgregor"
-    # - label: "Google Scholar"
-    #   icon: "fab fa-graduation-cap"
-    #   url: "https://github.com/djmcgregor"
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+    - label: "Google Scholar"
+      icon: "fa fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=lDYvn_EAAAAJ&hl=en&oi=ao"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 
 # Site Footer
@@ -141,15 +132,6 @@ footer:
       # url:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
-      # url:
-    # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
-      # url:
-    # - label: "Bitbucket"
-    #   icon: "fab fa-fw fa-bitbucket"
-      # url:
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
       # url:
 
 
