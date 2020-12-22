@@ -125,7 +125,7 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/djmcgregor"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github-square"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/djmcgregor"
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
