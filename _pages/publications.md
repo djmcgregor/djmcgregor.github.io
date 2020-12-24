@@ -4,10 +4,10 @@ classes: wide
 permalink: /publications/
 title: "Publications"
 excerpt: "publications"
-last_modified_at: 2020-12-17T08:41:35-04:00
+last_modified_at: 2020-12-23T08:41:35-04:00
 ---
-<!-- *Submitted/Revised* -- Title of article  -->
-0. *Revised* -- Emergency ventilator for COVID-19
+<!-- *Submitted/Revised/Accepted* -- Title of article  -->
+0. *Accepted* -- Emergency ventilator for COVID-19
 0. *Revised* -- Effect of an added mass on the vibration characteristics for raster scanning of a cantilevered optical fiber
 0. *Submitted* -- Analyzing part accuracy and sources of variability for additively manufactured lattice parts made on multiple printers 
 {: type="i"}
