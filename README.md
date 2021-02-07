@@ -5,7 +5,7 @@ This repository contains the contents for a website powered by [Jekyll](https://
 It can also be generated  and served outside github by generating the website with jekyll (usually by 
 running `jekyll build`) and copying it into a static website host (like _Github Pages_ or _Amazon S3_)
 
-## jekyll
+## Jekyll
 
 From [Jekyll docs](https://jekyllrb.com/docs/):
 > [Jekyll](https://jekyllrb.com/) is a static site generator. You give it text written in your favorite markup language, 

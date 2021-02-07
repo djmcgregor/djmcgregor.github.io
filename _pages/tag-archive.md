@@ -2,6 +2,6 @@
 title: "Posts by Tag"
 permalink: /tags/
 layout: tags
-author_provile: true
+author_profile: true
 entries_layout: grid
 ---

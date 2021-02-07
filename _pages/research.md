@@ -37,7 +37,7 @@ king_research:
 
 Additive Manufacturing Quality - [King](https://kinglab.mechse.illinois.edu/) and [Tawfick](https://tawfick.mechse.illinois.edu/) Labs
 {: style="font-size: 1em;"}
-* Evaluate and predicte quality of AM parts using computer vision, machine learning, and statistics
+* Evaluate and predict quality of AM parts using computer vision, machine learning, and statistics
 * Developing an automated analysis framework for inspecting complex, 3D parts, especially those with internal features
 * Devise novel, optical metrology systems for extracting 1000+ geometric dimensions from complex, lattice parts
 * Analyze computed tomography (CT) and variable focus microscopy (VFM) datasets using Python
