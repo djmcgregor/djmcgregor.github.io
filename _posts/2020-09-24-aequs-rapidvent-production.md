@@ -10,8 +10,7 @@ excerpt: UIUC RapidVent will be saving lives in India.
 ---
 
 <figure>
-    <a href="/assets/images/posts/2020-09-24-AQOventbanner.png">
-    <img src="/assets/images/posts/2020-09-24-AQOventbanner.png"></a>
+    <img src="/assets/images/posts/2020-09-24-AQOventbanner.png">
     <figcaption>AQovent by Aequs, based on the UIUC RapidVent design.</figcaption>
 </figure>
 

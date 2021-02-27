@@ -16,7 +16,7 @@ excerpt: UIUC and Fast Radius team up to develop COVID diagnostic.
 </figure>
 
 A team from the University of Illinois and Fast Radius developed and additively manufactured, microfluidic diagnostic for COVID-19. The linked article discusses
-how additive manufacturing enabled the rapid development and design flexiblity. 
+how additive manufacturing enabled the rapid development and design flexibility. 
 {: style="text-align: justify;"}
 
 Read more at <a href="https://www.fastradius.com/case-studies/microfluidic-chip/">https://www.fastradius.com/case-studies/microfluidic-chip/</a>
