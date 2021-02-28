@@ -1,5 +1,6 @@
 ---
 title: "Strava data reveals active lifestyle during pandemic"
+comments: true
 tags:
     - Athletics
     - COVID-19
