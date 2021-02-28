@@ -17,19 +17,28 @@
           <div class="js-comments">
             {% if site.data.comments[page.slug] %}
               <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
-              {% assign comments = site.data.comments[page.slug] | sort %}
+              {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == empty' | sort: 'date' %}
 
               {% for comment in comments %}
-                {% assign email = comment[1].email %}
-                {% assign name = comment[1].name %}
-                {% assign url = comment[1].url %}
-                {% assign date = comment[1].date %}
-                {% assign message = comment[1].message %}
-                {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
+                {% assign index       = forloop.index %}
+                {% assign r           = comment.replying_to %}
+                {% assign replying_to = r | to_integer %}
+
+                {% assign avatar      = comment.avatar %}
+                {% assign email       = comment.email %}
+                {% assign name        = comment.name %}
+                {% assign url         = comment.url %}
+                {% assign date        = comment.date %}
+                {% assign slug        = comment.slug %}
+                {% assign origin      = comment.origin %}
+                {% assign message     = comment.message %}
+                {% include comment.html index=index replying_to=replying_to avatar=avatar email=email name=name url=url date=date slug=slug origin=origin message=message %}
               {% endfor %}
             {% endif %}
           </div>
           <!-- End static comments -->
+
+          <!-- {% unless page.comments_locked == true or site.comments.comments_locked %} -->
 
           <!-- Start new comment form -->
           <div class="page__comments-form">
@@ -59,7 +68,9 @@
                 <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
               </div>
               <div class="form-group hidden" style="display: none;">
-                <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+                <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}" />
+                <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}" />
+                <input type="hidden" id="comment-parent" name="fields[replying_to]" value="" />
                 <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
                 <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
                 {% if site.reCaptcha.siteKey %}<input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">{% endif %}
@@ -82,6 +93,9 @@
           </div>
           <!-- End new comment form -->
           {% if site.reCaptcha.siteKey %}<script async src="https://www.google.com/recaptcha/api.js"></script>{% endif %}
+          {% else %}
+          <p><em>Comments are closed. If you have a question concerning the content of this page, please feel free to contact me.</em></p>
+          {% endunless %}
         {% endif %}
       </section>
     {% when "staticman" %}
