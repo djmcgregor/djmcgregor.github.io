@@ -13,6 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin_dark : "dark" # optional dark skin theme (see options above)
 
 # Site Settings
 locale                   : "en-US"
@@ -26,6 +27,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : djmcgregor/djmcgregor.github.io
 teaser                   : "/assets/images/posts/lattice_crush500x300.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/mcgregor_hex.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo_dark                : "/assets/images/mcgregor_hex_dark.svg" # optional path of dark skin logo image
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200

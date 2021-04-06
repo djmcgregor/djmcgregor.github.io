@@ -1,14 +1,14 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "McGregor",
+    "short_name": "McGregor",
     "icons": [
         {
-            "src": "/android-chrome-96x96.png",
-            "sizes": "96x96",
+            "src": "/assets/images/favicons/android-chrome-256x256.png",
+            "sizes": "256x256",
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "background_color": "#333333",
     "display": "standalone"
 }
