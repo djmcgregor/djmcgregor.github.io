@@ -2,7 +2,7 @@
 layout: single
 permalink: /projects/
 title: "Projects"
-excerpt: "More coming soon!"
+excerpt: ""
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.4"
