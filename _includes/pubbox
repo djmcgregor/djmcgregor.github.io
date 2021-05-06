@@ -1,0 +1,84 @@
+{% if include.id %}
+  {% assign pubbox = page[include.id] %}
+{% else %}
+  {% assign pubbox = page.pubbox %}
+{% endif %}
+
+<div class="feature__wrapper">
+  <div class="pubbox__item">
+
+    <div class="pubbox__item-body">
+      {% if pubbox.title %}
+        <div class="pubbox__item-title"><b>{{ pubbox.title }}</b></div>
+      {% endif %}
+
+      {% if pubbox.journal and pubbox.date %}
+        <div class="pubbox__item-subtitle">
+          <i>{{ pubbox.journal }}</i>
+          |
+          {{ pubbox.date }}
+        </div>
+      {% endif %}
+
+      {% if pubbox.abstract %}
+        <div class="pubbox__item-abstract">
+          {{ pubbox.abstract }}
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="pubbox__item-impact">
+      {% if pubbox.press %}
+        <div class="pubbox__item-news"><i>
+          <b>Selected Press:</b>
+          <a href="{{ pubbox.press_url }}" target="_blank">{{ pubbox.press }}</a> 
+        </i></div>
+      {% endif %}
+    </div>
+
+    {% if pubbox.doi %}
+      <div class="pubbox__item-dimbadge">
+        <span class="__dimensions_badge_embed__" data-style="small_rectangle" data-doi="{{ pubbox.doi }}"></span>
+      </div>
+
+      <div class="pubbox__item-altbadge">
+        <div class='altmetric-embed' data-badge-popover="right" data-hide-no-mentions="true" data-doi="{{ pubbox.doi }}"></div>
+      </div>
+    {% endif %}
+
+    {% if pubbox.open_access %}
+      <div class="pubbox__item-access">
+        <a href="{% if pubbox.url %}{{ pubbox.url }}{% endif %}" target="_blank" style="text-decoration: none">
+          <div class="greendot"></div>
+          <div class="access-text">open access</div>
+          <img src="{{ pubbox.journal_img | relative_url }}"
+              alt="journal cover">
+        </a>
+      </div>
+    {% else %}
+      <div class="pubbox__item-access" style="padding-right: 2px">
+        <a href="{% if pubbox.url %}{{ pubbox.url }}{% endif %}" target="_blank" style="text-decoration: none">
+          <img src="{{ pubbox.journal_img | relative_url }}"
+              alt="journal cover">
+        </a>
+      </div>
+      <div class="pubbox__item-access">      
+        <a href="{% if pubbox.pdf %}{{ pubbox.pdf | relative_url }}{% endif %}" target="_blank" style="text-decoration: none">
+          <div class="access-text">pdf if no access</div>
+          <img src="/assets/images/publications/pdf.png"
+              alt="pdf" style="transform: none">
+        </a>
+      </div>
+    {% endif %}
+
+    {% if pubbox.image_path %}
+      <div class="pubbox__item-teaser">
+        <a href="{% if pubbox.url %}{{ pubbox.url }}{% endif %}" target="_blank">
+        <img src="{{ pubbox.image_path | relative_url }}"
+              alt="{% if pubbox.alt %}{{ pubbox.alt }}{% endif %}">
+        </a>
+      </div>
+    {% endif %}
+
+  </div>
+</div>

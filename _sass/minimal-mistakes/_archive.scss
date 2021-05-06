@@ -461,3 +461,197 @@
 		display: inline-block;
 	}
 }
+
+/*
+   Publication box
+   ========================================================================== */
+
+.pubbox__item {
+  position: relative;
+  font-size: 1em;
+  border: 2px solid #666665;
+  border-top-right-radius: 50px 50px;
+  padding-left: gutter(1 of 12);
+  text-overflow: ellipsis;
+  margin-bottom: 0.5em;
+
+  @include breakpoint($small) {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 600px) {
+    border-top-right-radius: 0;
+  }
+  
+  .pubbox__item-body {
+    margin-top: 0.2em;
+    padding-right: gutter(1 of 12);
+    max-width: 75%;
+    overflow: hidden;
+    
+    @media (max-width: 600px) {
+      max-width: 100%;
+    }
+  }
+
+  .pubbox_item-impact {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+.pubbox__item-teaser {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 25%;
+  border-top-right-radius: 50px 50px;
+  overflow: hidden;
+  margin-right: 0;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 600px) {
+      display: none;
+  }
+}
+
+.pubbox__item-title {
+  margin-bottom: 0.1em;
+  font-size: 0.8em;
+  line-height: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pubbox__item-subtitle {
+  margin-bottom: 0.1em;
+  font-size: 0.65em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pubbox__item-abstract {
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  font-size: 0.65em;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // https://stackoverflow.com/a/32585024/15271127
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  // line-height: 1.2em;         // fallback for IE users
+  // max-height: 4 * 1.2em;
+}
+
+.pubbox__item-news {
+  font-size: 0.65em;
+  position: relative;
+}
+
+.pubbox__item-dimbadge {
+  position: relative;
+  float: left;
+  text-align: left;
+  padding-right: 10px;
+  max-width: 94px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+
+.pubbox__item-altbadge {
+  position: relative;
+  float: left;
+  text-align: left;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  transform: translateY(calc(-1em + 18px));
+  // display: inline-block;   //cannot transform inline-block elements
+}
+
+.pubbox__item-access {
+  position: relative;
+  text-align: left;
+  max-height: 30px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  display: inline-block;
+
+  .access-text {
+    color: $text-color;
+    font-size: 0.75em;
+    margin-right: 2px;
+    padding-bottom: 0;
+    text-align: left;
+    display: inline-block;
+  }
+
+  .greendot {
+    position: relative;
+    height: 12px;
+    width: 12px;
+    background-color: rgb(65, 131, 0);
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateY(2px);
+  }
+
+  img {
+    position: relative;
+    max-height: 30px;
+    width: auto;
+    display: inline-block;
+    transform: translateY(-5px);
+  }
+
+}
+
+/* remove border*/
+.page__content {
+  .pubbox__item-tile,
+  .pubbox__item-subtitle {
+    margin-top: 0.1em;
+    border-bottom: none;
+  }
+}
+
+/* Place inside an archive layout */
+
+.archive {
+  .feature__wrapper {
+    .pubbox__item-title,
+    .pubbox__item-subtitle {
+      margin-top: 0.1em;
+      font-size: 1em;
+    }
+  }
+
+  .pubbox__item,
+  .pubbox__item-teaser {
+    font-size: 1em;
+  }
+}
+
+/*
+   Wide Pages
+   ========================================================================== */
+
+  .wide {
+  .archive {
+    @include breakpoint($large) {
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-right: 0;
+    }
+  }
+}
