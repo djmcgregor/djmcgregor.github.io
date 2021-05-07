@@ -4,21 +4,107 @@ classes: wide
 permalink: /publications/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2021-04-15T08:41:35-04:00
+last_modified_at: 2021-05-07T08:41:35-04:00
+tipmass:
+  image_path: /assets/images/publications/fiber_resonance.jpg
+  alt: resonating fiber
+  title: Effect of an added mass on the vibration characteristics for raster scanning of a cantilevered optical fiber
+  journal: ASME J. of Medical Diagnostics
+  date: May 2021
+  abstract: Piezoelectric tube actuators with cantilevered optical fibers enable the miniaturization of scanning image acquisition techniques for endoscopic implementation. We explore adding a mass at an intermediate location along the length of the fiber to alter the resonant frequencies of the system and enable raster scanning. We provide a mathematical model to predict resonant frequencies for a cantilevered beam with an intermediate mass.
+#   press: Test
+#   press_url: https://www.google.com
+  doi: 10.1115/1.4050691
+  url: https://doi.org/10.1115/1.4050691
+  journal_img: /assets/images/posts/cover_asme_medical_diagnostics-th.jpg
+  open_access: False
+  pdf: https://uofi.box.com/s/y0hscw0d2ayqznmeux9t5g3rcwi4f4x1
+mfgvar:
+  image_path: /assets/images/publications/mfg_variation.jpg
+  alt: AM lattice qual
+  title: Analyzing part accuracy and sources of variability for additively manufactured lattice parts made on multiple printers
+  journal: Additive Manufacturing
+  date: April 2021
+  abstract: Framework for analyzing additive manufacturing variability. Statistical modeling analyzes accuracy for hexagonal lattice parts made on multiple printers. Part accuracy varies for different printers even when all other parameters are constant. 
+  press: Press Release
+  press_url: https://grainger.illinois.edu/news/stories/33360
+  doi: 10.1016/j.addma.2021.101924
+  url: https://doi.org/10.1016/j.addma.2021.101924
+  journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
+  open_access: True
+rapidvent:
+  image_path: /assets/images/publications/rapidvent_cover.jpg
+  alt: rapidvent
+  title: Emergency ventilator for COVID-19
+  journal: PLOS ONE
+  date: December 2020
+  abstract: In response to the need for mechanical ventilators, we designed and tested an emergency ventilator (EV) that can control a patient’s peak inspiratory pressure (PIP) and breathing rate, while keeping a positive end expiratory pressure (PEEP). This article describes the rapid design, prototyping, and testing of the EV. The development process was enabled by rapid design iterations using additive manufacturing (AM). In the initial design phase, iterations between design, AM, and testing enabled a working prototype within one week.
+  press: UIUC RapidVent
+  press_url: https://rapidvent.grainger.illinois.edu/
+  doi: 10.1371/journal.pone.0244963
+  url: https://doi.org/10.1371/journal.pone.0244963
+  journal_img: /assets/images/posts/plos_one_journal_cover57x70.jpg
+  open_access: True
+auto-scan:
+  image_path: /assets/images/publications/hough_transform.jpg
+  alt: Hough transfrom
+  title: Automated metrology and geometric analysis of additively manufactured lattice structures
+  journal: Additive Manufacturing
+  date: August 2019
+  abstract: Conventional methods for measuring part geometry and performing quality control, which typically use a small number of low-dimensional measurements, are not well suited for the complex structures enabled by additive manufacturing (AM), such as lattice structures. This paper describes a method for scanning and automatically extracting hundreds of individual features and applies this method to characterize AM lattice structures in both two-dimensional and three-dimensional lattices.
+#   press: Test
+#   press_url: https://www.google.com
+  doi: 10.1016/j.addma.2019.05.026
+  url: https://doi.org/10.1016/j.addma.2019.05.026
+  journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
+  open_access: False
+  pdf: https://uofi.box.com/s/cuuauyqcvgfyn73ipsdk5jkoxj39viod
+hex-crush:
+  image_path: /assets/images/publications/hex_compression.jpg
+  alt: AM lattice compression
+  title: Mechanical properties of hexagonal lattice structures fabricated using continuous liquid interface production additive manufacturing
+  journal: Additive Manufacturing
+  date: January 2019
+  abstract: Recent advancements in AM have enabled rapid production speeds, high spatial resolution, and a variety of engineering polymers. An open question remains whether production grade additive manufacturing (AM) can accurately and repeatably produce lattice parts. This study presents design, production, and mechanical property testing of hexagonal lattice parts manufactured using continuous liquid interface production (CLIP) based AM.
+  press: 3Dprint.com
+  press_url: https://3dprint.com/225193/testing-properties-clip-3d-prints/
+  doi: 10.1016/j.addma.2018.11.002
+  url: https://doi.org/10.1016/j.addma.2018.11.002
+  journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
+  open_access: False
+  pdf: https://uofi.box.com/s/95x1gs1u7a7q0lk25huzb1y545lx2a05
+tate:
+  image_path: /assets/images/publications/piezo_spiral_scan.png
+  alt: piezo actuated endoscope
+  title: Single lens system for forward-viewing navigation and scanning side-viewing optical coherence tomography
+  journal: Proc. SPIE 10040, Endoscopic Microscopy XII
+  date: February 2017
+  abstract: The optical design for a dual modality endoscope based on piezo scanning fiber technology is presented including a novel technique to combine forward-viewing navigation and side viewing OCT. Potential applications include navigating body lumens such as the fallopian tube, biliary ducts and cardiovascular system. A custom cover plate provides a rotationally symmetric double reflection of the OCT beam to deviate and focus the OCT beam out the side of the endoscope for cross-sectional imaging of the tubal lumen.
+  press: SPIE
+  press_url: https://spie.org/news/spie-professional-magazine-archive/2017-october/imaging-the-cancer-cure
+  doi: 10.1117/12.2271555
+  url: https://doi.org/10.1117/12.2271555
+  journal_img: /assets/images/publications/spie10040.png
+  open_access: False
+  pdf: https://uofi.box.com/s/06u6twh9gayco4urgn9qd1d7vuo4clco
 ---
 # Publications
-<!-- #### In Review -->
+
+[List view](/publications-list/){: .btn .btn--info .align-right}
+
+#### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-<!-- {: type="i"} -->
+0. Moon, H., **D.J. McGregor**, N. Miljkovic, and W.P. King. "Coupling of Genetic Algorithm Design with Additive Manufacturing Enables Ultra-Power-Dense Heat Exchanger Development." *Submitted*.
+{: type="i"}
 
 #### Published / Accepted
-0. **McGregor, D.J.**, S. Rylowicz, A. Brenzel, D. Baker, C. Wood, D. Pick, H. Deutchman, C. Shao, S. Tawfick, and W.P. King. [“Analyzing part accuracy and sources of variability for additively manufactured lattice parts made on multiple printers.”](https://doi.org/10.1016/j.addma.2021.101924) *Additive Manufacturing*, 40, 101924, 2021.
-0. Kiekens, K.C., D. Vega, H.T. Thurgood, D. Galvez, **D.J. McGregor**, T.W. Sawyer, and J.K. Barton. [“Effect of an added mass on the vibration characteristics for raster scanning of a cantilevered optical fiber.”](https://doi.org/10.1115/1.4050691) *ASME J. of Medical Diagnostics*, 2021.
-0. King, W.P., J. Amos, M. Azer, D. Baker, R. Bashir, C. Best, E. Bethke, S.A. Boppart, E. Bralts, R.M. Corey, R. Dietkus, G. Durack, S. Elbel, G. Elliott, J. Fava, N. Goldenfeld, M.H. Goldstein, C. Hayes, N. Herndon, S. Jamison, B. Johnson, H. Johnson, M. Johnson, J. Kolaczynski, T. Lee, S. Maslov, **D.J. McGregor**, D. Milner, R. Moller, J. Mosley, A. Musser, M. Newberger, D. Null, L. O’Bryan, M. Oelze, J. O’Leary, A. Pagano, M. Philpott, B. Pianfetti, A. Pille, L. Pizzuto, B. Ricconi, M. Rubessa, S. Rylowicz, C. Shipley, A.C. Singer, B. Stewart, R. Switzky, S. Tawfick, M. Wheeler, K. White, E.M. Widloski, E. Wood, C. Wood, and A.R. Wooldridge. ["Emergency ventilator for COVID-19."](https://doi.org/10.1371/journal.pone.0244963) *PLOS ONE*, 15, 12, e0244963, 2020.
-0. **McGregor, D.J.**, S. Tawfick, and W.P. King. ["Automated metrology and geometric analysis of additively manufactured lattice structures."](https://doi.org/10.1016/j.addma.2019.05.026) *Additive Manufacturing*, 28, 535-545, 2019.
-0. **McGregor, D.J.**, S. Tawfick, and W.P. King. ["Mechanical properties of hexagonal lattice structures fabricated using continuous liquid interface production additive manufacturing."](https://doi.org/10.1016/j.addma.2018.11.002) *Additive Manufacturing*, 25, 10-18, 2019.
-0. Tate, T.H., **D.J. McGregor**, and J.K. Barton. ["Single lens system for forward-viewing navigation and scanning side-viewing optical coherence tomography."](https://doi.org/10.1117/12.2271555) *Proc. SPIE 10040, Endoscopic Microscopy XII*, 2017.
-{: reversed="reversed"}
+{% include pubbox id="tipmass" %}
+{% include pubbox id="mfgvar" %}
+{% include pubbox id="rapidvent" %}
+{% include pubbox id="auto-scan" %}
+{% include pubbox id="hex-crush" %}
+{% include pubbox id="tate" %}
+
 ---
 # Presentations
 - Factory-level analysis of additively manufactured lattice structures using automated metrology
@@ -29,3 +115,8 @@ last_modified_at: 2021-04-15T08:41:35-04:00
     - Poster at the AZBio Expo, Phoenix, AZ, USA. March 2017.
     - Poster at the Univ. of Arizona Biomedical Engineering Design & Builders Day, Tucson, AZ, USA. March 2017.
     - Poster at the Univ. of Arizona Student Showcase, Tucson, AZ, USA. February 2017.
+
+<!-- dimensions badge -->
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<!-- altmetric badge -->
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
