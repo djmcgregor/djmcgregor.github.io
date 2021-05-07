@@ -1,6 +1,6 @@
 ---
 layout: single
-# classes: wide
+classes: wide
 permalink: /research/
 title: "Research Interests"
 excerpt: "Novel methods for rapid quality assessment"

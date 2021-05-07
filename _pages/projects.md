@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 permalink: /projects/
 title: "Projects"
 excerpt: ""
