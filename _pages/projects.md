@@ -10,8 +10,13 @@ header:
   overlay_image: /assets/images/projects/uiuc.jpg
   image_description: "UIUC Grainger Engineering Library"
   # caption: "Inverted drafting from flags. Credits: [**Leif Ristroph & Jun Zhang, NYU**](https://math.nyu.edu/~ristroph/)"
-last_modified_at: 2020-09-17T08:41:35-04:00
+last_modified_at: 2021-06-06T08:41:35-04:00
 ---
+## Personal Website
+* Developed a customized open-source static website powered by Jekyll and Minimal Mistakes
+* Automatically enable dark/light themes based on the user's OS/browser preferences with the `prefers-color-scheme` CSS media feature
+* Created custom containers for a grid view publications page using Liquid, HTML, and CSS
+
 ## Distributional Deep Q-learning
 * Implemented Google’s C51 algorithm in PyTorch, and trained it on various Atari games such as Pong and Breakout
 * Exploited high performance GPU computing to run highly parallelized, batch jobs on the Blue Waters supercomputer
