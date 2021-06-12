@@ -4,7 +4,7 @@ classes: wide
 permalink: /publications/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2021-05-07T08:41:35-04:00
+last_modified_at: 2021-06-11T08:41:35-04:00
 tipmass:
   image_path: /assets/images/publications/fiber_resonance.jpg
   alt: resonating fiber
@@ -17,7 +17,7 @@ tipmass:
   doi: 10.1115/1.4050691
   url: https://doi.org/10.1115/1.4050691
   journal_img: /assets/images/posts/cover_asme_medical_diagnostics-th.jpg
-  open_access: False
+  access: pdf
   pdf: https://uofi.box.com/s/y0hscw0d2ayqznmeux9t5g3rcwi4f4x1
 mfgvar:
   image_path: /assets/images/publications/mfg_variation.jpg
@@ -31,7 +31,7 @@ mfgvar:
   doi: 10.1016/j.addma.2021.101924
   url: https://doi.org/10.1016/j.addma.2021.101924
   journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
-  open_access: True
+  access: open
 rapidvent:
   image_path: /assets/images/publications/rapidvent_cover.jpg
   alt: rapidvent
@@ -44,7 +44,7 @@ rapidvent:
   doi: 10.1371/journal.pone.0244963
   url: https://doi.org/10.1371/journal.pone.0244963
   journal_img: /assets/images/posts/plos_one_journal_cover57x70.jpg
-  open_access: True
+  access: open
 auto-scan:
   image_path: /assets/images/publications/hough_transform.jpg
   alt: Hough transfrom
@@ -57,8 +57,8 @@ auto-scan:
   doi: 10.1016/j.addma.2019.05.026
   url: https://doi.org/10.1016/j.addma.2019.05.026
   journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
-  open_access: False
-  pdf: https://uofi.box.com/s/cuuauyqcvgfyn73ipsdk5jkoxj39viod
+  access: none
+  # pdf: https://uofi.box.com/s/cuuauyqcvgfyn73ipsdk5jkoxj39viod
 hex-crush:
   image_path: /assets/images/publications/hex_compression.jpg
   alt: AM lattice compression
@@ -71,8 +71,8 @@ hex-crush:
   doi: 10.1016/j.addma.2018.11.002
   url: https://doi.org/10.1016/j.addma.2018.11.002
   journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
-  open_access: False
-  pdf: https://uofi.box.com/s/95x1gs1u7a7q0lk25huzb1y545lx2a05
+  access: none
+  # pdf: https://uofi.box.com/s/95x1gs1u7a7q0lk25huzb1y545lx2a05
 tate:
   image_path: /assets/images/publications/piezo_spiral_scan.png
   alt: piezo actuated endoscope
@@ -85,8 +85,8 @@ tate:
   doi: 10.1117/12.2271555
   url: https://doi.org/10.1117/12.2271555
   journal_img: /assets/images/publications/spie10040.png
-  open_access: False
-  pdf: https://uofi.box.com/s/06u6twh9gayco4urgn9qd1d7vuo4clco
+  access: none
+  # pdf: https://uofi.box.com/s/06u6twh9gayco4urgn9qd1d7vuo4clco
 ---
 # Publications
 
@@ -94,7 +94,7 @@ tate:
 
 #### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-0. Moon, H., **D.J. McGregor**, N. Miljkovic, and W.P. King. "Coupling of Genetic Algorithm Design with Additive Manufacturing Enables Ultra-Power-Dense Heat Exchanger Development." *Submitted*.
+0. Moon, H., **D.J. McGregor**, N. Miljkovic, and W.P. King. "Coupling of Genetic Algorithm Design with Additive Manufacturing Enables Ultra-Power-Dense Heat Exchanger Development." *Revised*.
 {: type="i"}
 
 #### Published / Accepted
@@ -115,6 +115,10 @@ tate:
     - Poster at the AZBio Expo, Phoenix, AZ, USA. March 2017.
     - Poster at the Univ. of Arizona Biomedical Engineering Design & Builders Day, Tucson, AZ, USA. March 2017.
     - Poster at the Univ. of Arizona Student Showcase, Tucson, AZ, USA. February 2017.
+
+---
+# Contact / PDF Access
+Copyrights limit what I can share on this website. If you are interested in reading one of my publications but do not have journal access, I am happy to privately share a PDF copy. Send me a message via LinkedIn or email davisjmcgregor{at}gmail{dot}com. Feel free to reach out for other reasons as well!
 
 <!-- dimensions badge -->
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

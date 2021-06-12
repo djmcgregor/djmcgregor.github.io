@@ -4,7 +4,7 @@ classes: wide
 permalink: /publications-list/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2021-05-07T08:41:35-04:00
+last_modified_at: 2021-06-11T08:41:35-04:00
 ---
 # Publications
 
@@ -12,7 +12,7 @@ last_modified_at: 2021-05-07T08:41:35-04:00
 
 #### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-0. Moon, H., **D.J. McGregor**, N. Miljkovic, and W.P. King. "Coupling of Genetic Algorithm Design with Additive Manufacturing Enables Ultra-Power-Dense Heat Exchanger Development." *Submitted*.
+0. Moon, H., **D.J. McGregor**, N. Miljkovic, and W.P. King. "Coupling of Genetic Algorithm Design with Additive Manufacturing Enables Ultra-Power-Dense Heat Exchanger Development." *Revised*.
 {: type="i"}
 
 #### Published / Accepted
@@ -23,6 +23,7 @@ last_modified_at: 2021-05-07T08:41:35-04:00
 0. **McGregor, D.J.**, S. Tawfick, and W.P. King. ["Mechanical properties of hexagonal lattice structures fabricated using continuous liquid interface production additive manufacturing."](https://doi.org/10.1016/j.addma.2018.11.002) *Additive Manufacturing*, 25, 10-18, 2019.
 0. Tate, T.H., **D.J. McGregor**, and J.K. Barton. ["Single lens system for forward-viewing navigation and scanning side-viewing optical coherence tomography."](https://doi.org/10.1117/12.2271555) *Proc. SPIE 10040, Endoscopic Microscopy XII*, 2017.
 {: reversed="reversed"}
+
 ---
 # Presentations
 - Factory-level analysis of additively manufactured lattice structures using automated metrology
@@ -33,3 +34,7 @@ last_modified_at: 2021-05-07T08:41:35-04:00
     - Poster at the AZBio Expo, Phoenix, AZ, USA. March 2017.
     - Poster at the Univ. of Arizona Biomedical Engineering Design & Builders Day, Tucson, AZ, USA. March 2017.
     - Poster at the Univ. of Arizona Student Showcase, Tucson, AZ, USA. February 2017.
+
+---
+# Contact / PDF Access
+Copyrights limit what I can share on this website. If you are interested in reading one of my publications but do not have journal access, I am happy to privately share a PDF copy. Send me a message via LinkedIn or email davisjmcgregor{at}gmail{dot}com. Feel free to reach out for other reasons as well!

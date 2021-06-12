@@ -46,16 +46,16 @@
       </div>
     {% endif %}
 
-    {% if pubbox.open_access %}
+    {% if pubbox.access == "open" %}
       <div class="pubbox__item-access">
         <a href="{% if pubbox.url %}{{ pubbox.url }}{% endif %}" target="_blank" style="text-decoration: none">
-          <div class="greendot"></div>
-          <div class="access-text">open access</div>
           <img src="{{ pubbox.journal_img | relative_url }}"
               alt="journal cover">
+          <div class="greendot"></div>
+          <div class="access-text">open access</div>
         </a>
       </div>
-    {% else %}
+    {% elsif pubbox.access == "pdf" %}
       <div class="pubbox__item-access" style="padding-right: 2px">
         <a href="{% if pubbox.url %}{{ pubbox.url }}{% endif %}" target="_blank" style="text-decoration: none">
           <img src="{{ pubbox.journal_img | relative_url }}"
@@ -67,6 +67,18 @@
           <div class="access-text">pdf if no access</div>
           <img src="/assets/images/publications/pdf.png"
               alt="pdf" style="transform: none">
+        </a>
+      </div>
+    {% else %}
+      <div class="pubbox__item-access" style="padding-right: 2px">
+        <a href="{% if pubbox.url %}{{ pubbox.url }}{% endif %}" target="_blank" style="text-decoration: none">
+          <img src="{{ pubbox.journal_img | relative_url }}"
+              alt="journal cover">
+        </a>
+      </div>
+      <div class="pubbox__item-access">      
+        <a href="{{ "publications/#contact--pdf-access" | relative_url }}" style="text-decoration: none">
+          <div class="access-text">contact for pdf access</div>
         </a>
       </div>
     {% endif %}
