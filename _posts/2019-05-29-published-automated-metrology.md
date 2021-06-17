@@ -5,10 +5,10 @@ tags:
     - Publications
 header:
     teaser: /assets/images/posts/2019-05-29-gradated_hex.jpg
-excerpt: Automated metrology and geometric analysis of AM lattice structures
+excerpt: Automated metrology and geometric analysis of AM lattice structures.
 ---
 <figure>
-    <a href="/assets/images/posts/2019-05-29-metrology-lowres.jpg">
+    <a href="/assets/images/posts/2019-05-29-metrology.jpg">
     <img src="/assets/images/posts/2019-05-29-metrology.jpg"></a>
     <figcaption>Machine vision based analysis of complex lattice parts.</figcaption>
 </figure>

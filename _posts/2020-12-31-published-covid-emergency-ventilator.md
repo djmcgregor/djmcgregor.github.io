@@ -6,12 +6,12 @@ tags:
     - Additive Manufacturing
 header:
     teaser: /assets/images/posts/2020-12-31-rapidvent500x300.jpg
-excerpt: Emergency ventilator for COVID-19
+excerpt: Emergency ventilator for COVID-19.
 ---
 <figure>
     <a href="/assets/images/posts/2020-12-31-rapidvent_fig1.jpg">
     <img src="/assets/images/posts/2020-12-31-rapidvent_fig1.jpg"></a>
-    <figcaption>(A) Schematic of the RapidVent connected to oxygen source and to the patient. (B) Photograph of the RapidVent prototype. (C) Cross section of the modulator design. (D) Schematic showing the mechanism of pressure-driven ventilation during inhalation (left) and exhalation (right). (E) Exploded view of the RapidVent assembly. </figcaption>
+    <figcaption>(A) Schematic of the RapidVent connected to oxygen source and to the patient. (B) Photograph of the RapidVent prototype. (C) Cross section of the modulator design. (D) Schematic showing the mechanism of pressure-driven ventilation during inhalation (left) and exhalation (right). (E) Exploded view of the RapidVent assembly.</figcaption>
 </figure>
 
 ![image-left](/assets/images/posts/plos_one_journal_cover57x70.jpg){: .align-left}
@@ -38,6 +38,9 @@ available online under a free license. The designs have been transferred to more
 This project demonstrates the potential for ultra-fast product design, engineering, and testing of medical devices
 needed for COVID-19 emergency response.
 {: .text-justify .notice}
+
+[UIUC Press Release](https://mechse.illinois.edu/news/30386){: .btn .btn--info style="font-size: 1em;"}
+[UIUC RapidVent](https://rapidvent.grainger.illinois.edu/){: .btn .btn--info style="font-size: 1em;"}
 
 ### Related LinkedIn Post
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6752280481875705856" height="503" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>

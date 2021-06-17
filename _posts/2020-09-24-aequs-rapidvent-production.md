@@ -4,13 +4,13 @@ tags:
     - Additive Manufacturing
     - COVID-19
 header:
-    teaser: /assets/images/posts/2020-09-24-AQOventbanner500x300.png
-    og_image: /assets/images/posts/2020-09-24-AQOventbanner500x300.png
+    teaser: /assets/images/posts/2020-09-24-AQoventbanner500x300.png
+    og_image: /assets/images/posts/2020-09-24-AQoventbanner500x300.png
 excerpt: UIUC RapidVent will be saving lives in India.
 ---
 
 <figure>
-    <img src="/assets/images/posts/2020-09-24-AQOventbanner.png">
+    <img src="/assets/images/posts/2020-09-24-AQoventbanner.png">
     <figcaption>AQovent by Aequs, based on the UIUC RapidVent design.</figcaption>
 </figure>
 
