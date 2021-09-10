@@ -4,7 +4,20 @@ classes: wide
 permalink: /publications/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2021-06-11T08:41:35-04:00
+last_modified_at: 2021-09-10T08:41:35-04:00
+gaf-hx:
+  image_path: /assets/images/publications/joule_gaf_hx.png
+  alt: genetic algorithm heat exchanger
+  title: Ultra-power-dense heat exchanger development through genetic algorithm design and additive manufacturing
+  journal: Joule
+  date: September 2021
+  abstract: We show design automation and additive manufacturing that can achieve high heat transfer with complex 3D structures internal to the heat exchanger that cannot be made with conventional methods. The resulting device achieves a power density and specific power significantly higher than that of most conventional heat exchangers. 
+  press: 3D Printing Progress
+  press_url: https://www.3dprintingprogress.com/articles/24723/extreme-heat-exchanger-using-metal-3d-printing
+  doi: 10.1016/j.joule.2021.08.004
+  url: https://urldefense.com/v3/__https://authors.elsevier.com/c/1djN3925JEG7rh__;!!DZ3fjg!voZoS0VAKOOKBckIPzHq2goZTP_pqVXRwV2FbS1txYcdCZPBomGrns6I7GNR-wc4jWyJ$
+  journal_img: /assets/images/posts/cover_joule_aug21.jpg
+  access: none
 tipmass:
   image_path: /assets/images/publications/fiber_resonance.jpg
   alt: resonating fiber
@@ -94,10 +107,11 @@ tate:
 
 #### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-0. Moon, H., **D.J. McGregor**, N. Miljkovic, and W.P. King. "Coupling of Genetic Algorithm Design with Additive Manufacturing Enables Ultra-Power-Dense Heat Exchanger Development." *Revised*.
+0. Yang, Y., **D.J. McGregor**, S. Tawfick, W.P. King, and C. Shao. "Hierarchical data models improve the accuracy of feature level predictions for additively manufactured parts." *Submitted*.
 {: type="i"}
 
 #### Published / Accepted
+{% include pubbox id="gaf-hx" %}
 {% include pubbox id="tipmass" %}
 {% include pubbox id="mfgvar" %}
 {% include pubbox id="rapidvent" %}
