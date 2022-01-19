@@ -56,5 +56,10 @@ Heat exchangers are used in nearly every systems technology, including power gen
 This work presents the design, fabrication, and characterization of a three-dimensional heat exchanger (HX) having a tube-in-tube architecture using a genetic algorithm design and metal additive manufacturing (AM). The genetic algorithm aids the design of optimal fin geometries that minimize total thermal resistance between hot fluid and cold fluid. The genetic algorithm is coupled to a two-dimensional finite element method simulation to calculate conduction and convection in the device. Through careful thermal-hydraulic experiments, we demonstrate that our HX was able to achieve a power density of 26.6 W/cm3 and specific power of 15.7 kW/kg. The specific power of our additively manufactured device is 20X higher than that of a commercially available tube-in-tube HX with no fins. The optimized device also performs well compared with shell-and-tube and brazed plate heat exchangers that are designed for significantly higher heat transfer.
 {: .text-justify .notice}
 
+[ASME News](https://www.asme.org/topics-resources/content/rethinking-and-redesigning-heat-exchangers){: .btn .btn--info style="font-size: 1em;"}
+[3D Printing Progress](https://www.3dprintingprogress.com/articles/24723/extreme-heat-exchanger-using-metal-3d-printing){: .btn .btn--info style="font-size: 1em;"}
+[3D Printing Industry](https://3dprintingindustry.com/news/engineers-use-3d-printing-technology-to-boost-heat-exchanger-performance-by-2000-196500/){: .btn .btn--info style="font-size: 1em;"}
+[UIUC Press Release](https://mechse.illinois.edu/news/41505){: .btn .btn--info style="font-size: 1em;"}
+
 ### Related LinkedIn Post
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6842122151030476801" height="520" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
