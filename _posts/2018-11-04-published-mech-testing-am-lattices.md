@@ -13,7 +13,7 @@ excerpt: Mechanical properties of hexagonal lattice structures fabricated using 
     <figcaption>Compression testing of AM lattice parts having different relative densities.</figcaption>
 </figure>
 
-![image-left](/assets/images/posts/AM_journal_cover50x70.jpg){: .align-left}
+![image-left](/assets/images/publications/cover_addit_manuf.jpg){: .align-left}
 [Mechanical properties of hexagonal lattice structures fabricated using continuous liquid interface production additive manufacturing](https://doi.org/10.1016/j.addma.2018.11.002)
 has been accepted to Additive Manufacturing.
 

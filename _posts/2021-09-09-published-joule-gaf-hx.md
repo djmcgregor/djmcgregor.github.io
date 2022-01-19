@@ -12,7 +12,7 @@ excerpt: Design automation and additive manufacturing achieve high heat transfer
     <img src="/assets/images/posts/2021-09-09-gaf_hx.png"></a>
 </figure>
 
-![image-left](/assets/images/posts/cover_joule_aug21.jpg){: .align-left}
+![image-left](/assets/images/publications/cover_joule_nov21.jpg){: .align-left}
 [Ultra-power-dense heat exchanger development through genetic algorithm design and additive manufacturing]( https://urldefense.com/v3/__https://authors.elsevier.com/c/1djN3925JEG7rh__;!!DZ3fjg!voZoS0VAKOOKBckIPzHq2goZTP_pqVXRwV2FbS1txYcdCZPBomGrns6I7GNR-wc4jWyJ$)
 has been accepted to Joule.
 

@@ -12,7 +12,7 @@ excerpt: AM part accuracy and sources of variability in a factory.
     <img src="/assets/images/posts/2021-03-27-mfg_variation.jpg"></a>
 </figure>
 
-![image-left](/assets/images/posts/AM_journal_cover50x70.jpg){: .align-left}
+![image-left](/assets/images/publications/cover_addit_manuf.jpg){: .align-left}
 [Analyzing part accuracy and sources of variability for additively manufactured lattice parts made on multiple printers](https://doi.org/10.1016/j.addma.2021.101924)
 has been accepted to Additive Manufacturing.
 

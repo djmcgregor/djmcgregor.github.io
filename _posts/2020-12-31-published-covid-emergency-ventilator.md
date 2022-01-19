@@ -14,7 +14,7 @@ excerpt: Emergency ventilator for COVID-19.
     <figcaption>(A) Schematic of the RapidVent connected to oxygen source and to the patient. (B) Photograph of the RapidVent prototype. (C) Cross section of the modulator design. (D) Schematic showing the mechanism of pressure-driven ventilation during inhalation (left) and exhalation (right). (E) Exploded view of the RapidVent assembly.</figcaption>
 </figure>
 
-![image-left](/assets/images/posts/plos_one_journal_cover57x70.jpg){: .align-left}
+![image-left](/assets/images/publications/cover_plos_one.jpg){: .align-left}
 [Emergency ventilator for COVID-19](https://doi.org/10.1371/journal.pone.0244963)
 has been published in PLOS ONE.
 

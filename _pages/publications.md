@@ -15,8 +15,8 @@ gaf-hx:
   press: 3D Printing Progress
   press_url: https://www.3dprintingprogress.com/articles/24723/extreme-heat-exchanger-using-metal-3d-printing
   doi: 10.1016/j.joule.2021.08.004
-  url: https://urldefense.com/v3/__https://authors.elsevier.com/c/1djN3925JEG7rh__;!!DZ3fjg!voZoS0VAKOOKBckIPzHq2goZTP_pqVXRwV2FbS1txYcdCZPBomGrns6I7GNR-wc4jWyJ$
-  journal_img: /assets/images/posts/cover_joule_aug21.jpg
+  url: https://doi.org/10.1016/j.joule.2021.08.004
+  journal_img: /assets/images/publications/cover_joule_nov21.jpg
   access: none
 tipmass:
   image_path: /assets/images/publications/fiber_resonance.jpg
@@ -29,7 +29,7 @@ tipmass:
 #   press_url: https://www.google.com
   doi: 10.1115/1.4050691
   url: https://doi.org/10.1115/1.4050691
-  journal_img: /assets/images/posts/cover_asme_medical_diagnostics-th.jpg
+  journal_img: /assets/images/publications/cover_asme_medical_diagnostics.jpg
   access: pdf
   pdf: https://uofi.box.com/s/y0hscw0d2ayqznmeux9t5g3rcwi4f4x1
 mfgvar:
@@ -43,7 +43,7 @@ mfgvar:
   press_url: https://grainger.illinois.edu/news/stories/33360
   doi: 10.1016/j.addma.2021.101924
   url: https://doi.org/10.1016/j.addma.2021.101924
-  journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
+  journal_img: /assets/images/publications/cover_addit_manuf.jpg
   access: open
 rapidvent:
   image_path: /assets/images/publications/rapidvent_cover.jpg
@@ -56,7 +56,7 @@ rapidvent:
   press_url: https://rapidvent.grainger.illinois.edu/
   doi: 10.1371/journal.pone.0244963
   url: https://doi.org/10.1371/journal.pone.0244963
-  journal_img: /assets/images/posts/plos_one_journal_cover57x70.jpg
+  journal_img: /assets/images/publications/cover_plos_one.jpg
   access: open
 auto-scan:
   image_path: /assets/images/publications/hough_transform.jpg
@@ -69,7 +69,7 @@ auto-scan:
 #   press_url: https://www.google.com
   doi: 10.1016/j.addma.2019.05.026
   url: https://doi.org/10.1016/j.addma.2019.05.026
-  journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
+  journal_img: /assets/images/publications/cover_addit_manuf.jpg
   access: none
   # pdf: https://uofi.box.com/s/cuuauyqcvgfyn73ipsdk5jkoxj39viod
 hex-crush:
@@ -83,7 +83,7 @@ hex-crush:
   press_url: https://3dprint.com/225193/testing-properties-clip-3d-prints/
   doi: 10.1016/j.addma.2018.11.002
   url: https://doi.org/10.1016/j.addma.2018.11.002
-  journal_img: /assets/images/posts/AM_journal_cover50x70.jpg
+  journal_img: /assets/images/publications/cover_addit_manuf.jpg
   access: none
   # pdf: https://uofi.box.com/s/95x1gs1u7a7q0lk25huzb1y545lx2a05
 tate:
@@ -97,7 +97,7 @@ tate:
   press_url: https://spie.org/news/spie-professional-magazine-archive/2017-october/imaging-the-cancer-cure
   doi: 10.1117/12.2271555
   url: https://doi.org/10.1117/12.2271555
-  journal_img: /assets/images/publications/spie10040.png
+  journal_img: /assets/images/publications/cover_spie10040.png
   access: none
   # pdf: https://uofi.box.com/s/06u6twh9gayco4urgn9qd1d7vuo4clco
 ---

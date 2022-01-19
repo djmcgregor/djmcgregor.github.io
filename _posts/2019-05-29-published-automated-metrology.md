@@ -13,7 +13,7 @@ excerpt: Automated metrology and geometric analysis of AM lattice structures.
     <figcaption>Machine vision based analysis of complex lattice parts.</figcaption>
 </figure>
 
-![image-left](/assets/images/posts/AM_journal_cover50x70.jpg){: .align-left}
+![image-left](/assets/images/publications/cover_addit_manuf.jpg){: .align-left}
 [Automated metrology and geometric analysis of additively manufactured lattice structures](https://doi.org/10.1016/j.addma.2019.05.026)
 has been accepted to Additive Manufacturing.
 
