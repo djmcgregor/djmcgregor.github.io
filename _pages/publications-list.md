@@ -4,7 +4,7 @@ classes: wide
 permalink: /publications-list/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2021-09-10T08:41:35-04:00
+last_modified_at: 2022-01-18T08:41:35-04:00
 ---
 # Publications
 
@@ -12,11 +12,13 @@ last_modified_at: 2021-09-10T08:41:35-04:00
 
 #### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-0. Yang, Y., **D.J. McGregor**, S. Tawfick, W.P. King, and C. Shao. "Hierarchical data models improve the accuracy of feature level predictions for additively manufactured parts." *Submitted*.
+0. **McGregor, D.J.**, M.V. Bimrose, S. Tawfick, and W.P. King. "Scalable measurements of additively manufactured parts having internal structures using X-ray computed tomography and open-source software ." *Revised*.
+0. **McGregor, D.J.**, M.V. Bimrose, C. Shao, S. Tawfick, and W.P. King. "Using machine learning models to predict part geometry and qualify parts for additive manufacturing across multiple machines, materials, and part designs." *Submitted*.
 {: type="i"}
 
 #### Published / Accepted
-0. Moon, H., **D.J. McGregor**, N. Miljkovic, and W.P. King. ["Ultra-power-dense heat exchanger development through genetic algorithm design and additive manufacturing."](https://urldefense.com/v3/__https://authors.elsevier.com/c/1djN3925JEG7rh__;!!DZ3fjg!voZoS0VAKOOKBckIPzHq2goZTP_pqVXRwV2FbS1txYcdCZPBomGrns6I7GNR-wc4jWyJ$) *Joule*, *In Press*.
+0. Yang, Y., **D.J. McGregor**, S. Tawfick, W.P. King, and C. Shao. ["Hierarchical data models improve the accuracy of feature level predictions for additively manufactured parts."](https://doi.org/10.1016/j.addma.2022.102621) *Additive Manufacturing*, 51, 102621, 2022.
+0. Moon, H., **D.J. McGregor**, N. Miljkovic, and W.P. King. ["Ultra-power-dense heat exchanger development through genetic algorithm design and additive manufacturing."](https://doi.org/10.1016/j.joule.2021.08.004) *Joule*, 5(11), 3045-3056, 2021.
 0. Kiekens, K.C., D. Vega, H.T. Thurgood, D. Galvez, **D.J. McGregor**, T.W. Sawyer, and J.K. Barton. [“Effect of an added mass on the vibration characteristics for raster scanning of a cantilevered optical fiber.”](https://doi.org/10.1115/1.4050691) *ASME J. of Medical Diagnostics*, 4(2), 2021.
 0. **McGregor, D.J.**, S. Rylowicz, A. Brenzel, D. Baker, C. Wood, D. Pick, H. Deutchman, C. Shao, S. Tawfick, and W.P. King. [“Analyzing part accuracy and sources of variability for additively manufactured lattice parts made on multiple printers.”](https://doi.org/10.1016/j.addma.2021.101924) *Additive Manufacturing*, 40, 101924, 2021.
 0. King, W.P., J. Amos, M. Azer, D. Baker, R. Bashir, C. Best, E. Bethke, S.A. Boppart, E. Bralts, R.M. Corey, R. Dietkus, G. Durack, S. Elbel, G. Elliott, J. Fava, N. Goldenfeld, M.H. Goldstein, C. Hayes, N. Herndon, S. Jamison, B. Johnson, H. Johnson, M. Johnson, J. Kolaczynski, T. Lee, S. Maslov, **D.J. McGregor**, D. Milner, R. Moller, J. Mosley, A. Musser, M. Newberger, D. Null, L. O’Bryan, M. Oelze, J. O’Leary, A. Pagano, M. Philpott, B. Pianfetti, A. Pille, L. Pizzuto, B. Ricconi, M. Rubessa, S. Rylowicz, C. Shipley, A.C. Singer, B. Stewart, R. Switzky, S. Tawfick, M. Wheeler, K. White, E.M. Widloski, E. Wood, C. Wood, and A.R. Wooldridge. ["Emergency ventilator for COVID-19."](https://doi.org/10.1371/journal.pone.0244963) *PLOS ONE*, 15(12), e0244963, 2020.
@@ -27,6 +29,8 @@ last_modified_at: 2021-09-10T08:41:35-04:00
 
 ---
 # Presentations
+- Monitoring part quality across multiple printers using automated metrology
+    - Presented at the ASTM International Conference on Additive Manufacturing, Anaheim, CA, USA (online). November 2021.
 - Factory-level analysis of additively manufactured lattice structures using automated metrology
     - Presented at the ASME International Mechanical Engineering Congress and Exposition, Portland, OR, USA (online). November 2020.
 - [Mechanical properties of hexagonal lattices fabricated using continuous liquid interface production AM](https://docs.lib.purdue.edu/iutam/presentations/abstracts/50/)

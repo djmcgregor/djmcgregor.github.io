@@ -4,24 +4,39 @@ classes: wide
 permalink: /publications/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2021-09-10T08:41:35-04:00
+last_modified_at: 2022-01-18T08:41:35-04:00
+hblm:
+  image_path: /assets/images/publications/thick_hist_by_printer.jpg
+  alt: histogram of thickness by printer
+  title: 8. Hierarchical data models improve the accuracy of feature level predictions for additively manufactured parts
+  journal: Additive Manufacturing
+  date: January 2022
+  abstract: A Hierarchical Bayesian Linear Model (HBLM) models the effects of multiple additive manufacturing production factors on part geometry. Gaussian process (GP) captures the feature-level spatial variation that can be unique to each part. Together, these models predict part geometry to within 10 microns. 
+#   press: Test
+#   press_url: https://www.google.com
+  doi: 10.1016/j.addma.2022.102621
+  url: https://doi.org/10.1016/j.addma.2022.102621
+  journal_img: /assets/images/publications/cover_addit_manuf_2021.jpg
+  access: none
+  # pdf:
 gaf-hx:
   image_path: /assets/images/publications/joule_gaf_hx.png
   alt: genetic algorithm heat exchanger
-  title: Ultra-power-dense heat exchanger development through genetic algorithm design and additive manufacturing
+  title: 7. Ultra-power-dense heat exchanger development through genetic algorithm design and additive manufacturing
   journal: Joule
   date: September 2021
   abstract: We show design automation and additive manufacturing that can achieve high heat transfer with complex 3D structures internal to the heat exchanger that cannot be made with conventional methods. The resulting device achieves a power density and specific power significantly higher than that of most conventional heat exchangers. 
-  press: 3D Printing Progress
-  press_url: https://www.3dprintingprogress.com/articles/24723/extreme-heat-exchanger-using-metal-3d-printing
+  press: ASME
+  press_url: https://www.asme.org/topics-resources/content/rethinking-and-redesigning-heat-exchangers
   doi: 10.1016/j.joule.2021.08.004
   url: https://doi.org/10.1016/j.joule.2021.08.004
   journal_img: /assets/images/publications/cover_joule_nov21.jpg
   access: none
+  # pdf:
 tipmass:
   image_path: /assets/images/publications/fiber_resonance.jpg
   alt: resonating fiber
-  title: Effect of an added mass on the vibration characteristics for raster scanning of a cantilevered optical fiber
+  title: 6. Effect of an added mass on the vibration characteristics for raster scanning of a cantilevered optical fiber
   journal: ASME J. of Medical Diagnostics
   date: May 2021
   abstract: Piezoelectric tube actuators with cantilevered optical fibers enable the miniaturization of scanning image acquisition techniques for endoscopic implementation. We explore adding a mass at an intermediate location along the length of the fiber to alter the resonant frequencies of the system and enable raster scanning. We provide a mathematical model to predict resonant frequencies for a cantilevered beam with an intermediate mass.
@@ -35,7 +50,7 @@ tipmass:
 mfgvar:
   image_path: /assets/images/publications/mfg_variation.jpg
   alt: AM lattice qual
-  title: Analyzing part accuracy and sources of variability for additively manufactured lattice parts made on multiple printers
+  title: 5. Analyzing part accuracy and sources of variability for additively manufactured lattice parts made on multiple printers
   journal: Additive Manufacturing
   date: April 2021
   abstract: Framework for analyzing additive manufacturing variability. Statistical modeling analyzes accuracy for hexagonal lattice parts made on multiple printers. Part accuracy varies for different printers even when all other parameters are constant. 
@@ -45,10 +60,11 @@ mfgvar:
   url: https://doi.org/10.1016/j.addma.2021.101924
   journal_img: /assets/images/publications/cover_addit_manuf.jpg
   access: open
+  # pdf:
 rapidvent:
   image_path: /assets/images/publications/rapidvent_cover.jpg
   alt: rapidvent
-  title: Emergency ventilator for COVID-19
+  title: 4. Emergency ventilator for COVID-19
   journal: PLOS ONE
   date: December 2020
   abstract: In response to the need for mechanical ventilators, we designed and tested an emergency ventilator (EV) that can control a patient’s peak inspiratory pressure (PIP) and breathing rate, while keeping a positive end expiratory pressure (PEEP). This article describes the rapid design, prototyping, and testing of the EV. The development process was enabled by rapid design iterations using additive manufacturing (AM). In the initial design phase, iterations between design, AM, and testing enabled a working prototype within one week.
@@ -58,10 +74,11 @@ rapidvent:
   url: https://doi.org/10.1371/journal.pone.0244963
   journal_img: /assets/images/publications/cover_plos_one.jpg
   access: open
+  # pdf:
 auto-scan:
   image_path: /assets/images/publications/hough_transform.jpg
   alt: Hough transfrom
-  title: Automated metrology and geometric analysis of additively manufactured lattice structures
+  title: 3. Automated metrology and geometric analysis of additively manufactured lattice structures
   journal: Additive Manufacturing
   date: August 2019
   abstract: Conventional methods for measuring part geometry and performing quality control, which typically use a small number of low-dimensional measurements, are not well suited for the complex structures enabled by additive manufacturing (AM), such as lattice structures. This paper describes a method for scanning and automatically extracting hundreds of individual features and applies this method to characterize AM lattice structures in both two-dimensional and three-dimensional lattices.
@@ -75,7 +92,7 @@ auto-scan:
 hex-crush:
   image_path: /assets/images/publications/hex_compression.jpg
   alt: AM lattice compression
-  title: Mechanical properties of hexagonal lattice structures fabricated using continuous liquid interface production additive manufacturing
+  title: 2. Mechanical properties of hexagonal lattice structures fabricated using continuous liquid interface production additive manufacturing
   journal: Additive Manufacturing
   date: January 2019
   abstract: Recent advancements in AM have enabled rapid production speeds, high spatial resolution, and a variety of engineering polymers. An open question remains whether production grade additive manufacturing (AM) can accurately and repeatably produce lattice parts. This study presents design, production, and mechanical property testing of hexagonal lattice parts manufactured using continuous liquid interface production (CLIP) based AM.
@@ -89,7 +106,7 @@ hex-crush:
 tate:
   image_path: /assets/images/publications/piezo_spiral_scan.png
   alt: piezo actuated endoscope
-  title: Single lens system for forward-viewing navigation and scanning side-viewing optical coherence tomography
+  title: 1. Single lens system for forward-viewing navigation and scanning side-viewing optical coherence tomography
   journal: Proc. SPIE 10040, Endoscopic Microscopy XII
   date: February 2017
   abstract: The optical design for a dual modality endoscope based on piezo scanning fiber technology is presented including a novel technique to combine forward-viewing navigation and side viewing OCT. Potential applications include navigating body lumens such as the fallopian tube, biliary ducts and cardiovascular system. A custom cover plate provides a rotationally symmetric double reflection of the OCT beam to deviate and focus the OCT beam out the side of the endoscope for cross-sectional imaging of the tubal lumen.
@@ -107,10 +124,12 @@ tate:
 
 #### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-0. Yang, Y., **D.J. McGregor**, S. Tawfick, W.P. King, and C. Shao. "Hierarchical data models improve the accuracy of feature level predictions for additively manufactured parts." *Submitted*.
+0. **McGregor, D.J.**, M.V. Bimrose, S. Tawfick, and W.P. King. "Scalable measurements of additively manufactured parts having internal structures using X-ray computed tomography and open-source software ." *Revised*.
+0. **McGregor, D.J.**, M.V. Bimrose, C. Shao, S. Tawfick, and W.P. King. "Using machine learning models to predict part geometry and qualify parts for additive manufacturing across multiple machines, materials, and part designs." *Submitted*.
 {: type="i"}
 
 #### Published / Accepted
+{% include pubbox id="hblm" %}
 {% include pubbox id="gaf-hx" %}
 {% include pubbox id="tipmass" %}
 {% include pubbox id="mfgvar" %}
@@ -121,6 +140,8 @@ tate:
 
 ---
 # Presentations
+- Monitoring part quality across multiple printers using automated metrology
+    - Presented at the ASTM International Conference on Additive Manufacturing, Anaheim, CA, USA (online). November 2021.
 - Factory-level analysis of additively manufactured lattice structures using automated metrology
     - Presented at the ASME International Mechanical Engineering Congress and Exposition, Portland, OR, USA (online). November 2020.
 - [Mechanical properties of hexagonal lattices fabricated using continuous liquid interface production AM](https://docs.lib.purdue.edu/iutam/presentations/abstracts/50/)
