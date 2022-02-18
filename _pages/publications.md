@@ -153,7 +153,7 @@ tate:
 
 ---
 # Contact / PDF Access
-Copyrights limit what I can share on this website. If you are interested in reading one of my publications but do not have journal access, I am happy to privately share a PDF copy. Send me a message via LinkedIn or email davisjmcgregor{at}gmail{dot}com. Feel free to reach out for other reasons as well!
+Copyrights limit what I can share on this website. If you are interested in reading one of my publications but do not have journal access, I am happy to privately share a PDF copy. Send an email with subject line "Paper Request" to davisjmcgregor{at}gmail{dot}com. Feel free to reach out for other reasons as well!
 
 <!-- dimensions badge -->
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
