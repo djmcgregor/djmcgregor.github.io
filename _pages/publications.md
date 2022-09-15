@@ -4,7 +4,36 @@ classes: wide
 permalink: /publications/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2022-01-18T08:41:35-04:00
+last_modified_at: 2022-09-14T08:41:35-04:00
+ml-svr:
+  image_path: /assets/images/publications/ml_clip.jpg
+  alt: additively manufactured clip
+  title: 10. Using machine learning to predict dimensions and qualify diverse part designs across multiple additive machines and materials
+  journal: Additive Manufacturing
+  date: July 2022
+  abstract: We developed a data model that describes additive part design information and manufacturing process information using both continuous and categorical variables. A support vector regression (SVR) machine learning model is trained using this data to predict part geometry to within 53 microns. The model is extended to classify the parts as either acceptable or unacceptable with 81% accuracy.
+#   press: Test
+#   press_url: https://www.google.com
+  doi: 10.1016/j.addma.2022.102848
+  url: https://doi.org/10.1016/j.addma.2022.102848
+  journal_img: /assets/images/publications/cover_addit_manuf_2021.jpg
+  access: none
+  # pdf:
+ct-nozzle:
+  image_path: /assets/images/publications/ct_nozzle.jpg
+  alt: cutaway view of additive nozzle with internal features
+  title: 9. Large batch metrology on internal features of additively manufactured parts using X-ray computed tomography
+  journal: Journal of Materials Processing Technology
+  date: April 2022
+  abstract: This study presents an automated method for batch X-ray computed tomography (CT) metrology using open-source software, and investigates 48 nozzle parts made using various additive manufacturing materials and processes. We find that external feature accuracy is not highly correlated with internal feature accuracy. Additionally, part-to-part repeatability for a given material and process is very good.
+#   press: Test
+#   press_url: https://www.google.com
+  doi: 10.1016/j.jmatprotec.2022.117605
+  url: https://doi.org/10.1016/j.jmatprotec.2022.117605
+  journal_img: /assets/images/publications/cover_jmpt.jpg
+  access: none
+  # pdf:
+
 hblm:
   image_path: /assets/images/publications/thick_hist_by_printer.jpg
   alt: histogram of thickness by printer
@@ -124,11 +153,12 @@ tate:
 
 #### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-0. **McGregor, D.J.**, M.V. Bimrose, S. Tawfick, and W.P. King. "Scalable measurements of additively manufactured parts having internal structures using X-ray computed tomography and open-source software ." *Revised*.
-0. **McGregor, D.J.**, M.V. Bimrose, C. Shao, S. Tawfick, and W.P. King. "Using machine learning models to predict part geometry and qualify parts for additive manufacturing across multiple machines, materials, and part designs." *Submitted*.
+0. Bimrose, M.V., T. Hu, **D.J. McGregor**, J. Wang, S. Tawfick, C. Shao, Z. Liu, and W.P. King. "Automatic detection of hidden defects and qualification of additively manufactured parts using X-ray computed tomography and computer vision." *Submitted*.
 {: type="i"}
 
 #### Published / Accepted
+{% include pubbox id="ml-svr" %}
+{% include pubbox id="ct-nozzle" %}
 {% include pubbox id="hblm" %}
 {% include pubbox id="gaf-hx" %}
 {% include pubbox id="tipmass" %}
@@ -140,10 +170,16 @@ tate:
 
 ---
 # Presentations
+- [Machine learning predicts additive manufacturing part quality: Tutorial on support vector regression](https://nanohub.org/resources/36374)
+    - Invited presentation on nanoHUB (online). August 2022.
+    - Hands on Python / Jupyter Notebook tutorial using SVR to predict the quality of AM parts
+    - [YouTube recording](https://www.youtube.com/watch?v=7TskxB4-x5Y) and [Jupyter Notebook](https://nanohub.org/resources/svr)
+- Large batch metrology on internal features of additively manufactured parts using X-ray computed tomography
+    - Invited presentation on J. of Materials Processing Technology (online). August 2022.
 - Monitoring part quality across multiple printers using automated metrology
-    - Presented at the ASTM International Conference on Additive Manufacturing, Anaheim, CA, USA (online). November 2021.
+    - Presentation at the ASTM International Conference on Additive Manufacturing, Anaheim, CA, USA (online). November 2021.
 - Factory-level analysis of additively manufactured lattice structures using automated metrology
-    - Presented at the ASME International Mechanical Engineering Congress and Exposition, Portland, OR, USA (online). November 2020.
+    - Presentation at the ASME International Mechanical Engineering Congress and Exposition, Portland, OR, USA (online). November 2020.
 - [Mechanical properties of hexagonal lattices fabricated using continuous liquid interface production AM](https://docs.lib.purdue.edu/iutam/presentations/abstracts/50/)
     - Poster at the IUTAM Symposium Architectured Materials Mechanics, Chicago, IL, USA. September 2018.
 - Mechanical design and characterization of resonant fiber-optic piezoelectric scanners
