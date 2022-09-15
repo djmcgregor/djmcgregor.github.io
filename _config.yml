@@ -17,11 +17,11 @@ minimal_mistakes_skin_dark : "dark" # optional dark skin theme (see options abov
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Davis J. McGregor"
+title                    : "Davis J. McGregor, Ph.D."
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : &name "Davis J. McGregor"
-description              : &description "Personal website for Davis J. McGregor. PhD candidate graduate student working on smart metrology and additive manufacturing quality research."
+name                     : &name "Davis J. McGregor, Ph.D."
+description              : &description "Personal website for Davis J. McGregor, Ph.D. - Sr. Manufacturing Scientist at Fast Radius developing manufacturing intelligence algorithms for traditional and additive manufacturing technologies."
 url                      : "https://djmcgregor.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : djmcgregor/djmcgregor.github.io
@@ -99,8 +99,8 @@ analytics:
 author:
   name      : *name #points to &anchor above
   avatar    : "/assets/images/profile_img.jpg"
-  bio       : "Smart Metrology & Additive Manufacturing Quality Engineer"
-  location  : "Champaign, IL"
+  bio       : "Sr. Manufacturing Scientist"
+  location  : "Chicago, IL"
   # email     :
   # linkedin  : "https://www.linkedin.com/in/djmcgregor"
   # github    : "https://github.com/djmcgregor"
