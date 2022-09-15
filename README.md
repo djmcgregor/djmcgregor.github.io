@@ -115,3 +115,11 @@ Header (`_includes/head/custom.html`) contains favicon based on the above genera
 ### Social Media links
 
 Social media links are added on the footer and author via `_config.yml`
+
+# Getting Started
+- See [Jekyll guide](https://jekyllrb.com/docs/installation/windows/)
+- Install [Ruby](https://rubyinstaller.org/) for Windows. Select a Ruby+Devkit version
+- Install Jekyll and Bundler with `gem install jekyll bundler`
+- Ensure Jekyll installed properly `jekyll -v`
+- Run `bundle update` to clear any dependency issues
+- Try to spin up a local site `bundle exec jekyll serve` and browse to `http://localhost:4000`
