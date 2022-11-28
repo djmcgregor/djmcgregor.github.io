@@ -31,11 +31,11 @@ last_modified_at: 2022-09-14T08:41:35-04:00
 ---
 # Presentations
 - [Machine learning predicts additive manufacturing part quality: Tutorial on support vector regression](https://nanohub.org/resources/36374)
-    - Invited presentation on nanoHUB (online). August 2022.
+    - Invited presentation at nanoHUB (online). August 2022.
     - Hands on Python / Jupyter Notebook tutorial using SVR to predict the quality of AM parts
     - [YouTube recording](https://www.youtube.com/watch?v=7TskxB4-x5Y) and [Jupyter Notebook](https://nanohub.org/resources/svr)
 - Large batch metrology on internal features of additively manufactured parts using X-ray computed tomography
-    - Invited presentation on J. of Materials Processing Technology (online). August 2022.
+    - Invited presentation at J. of Materials Processing Technology (online). August 2022.
 - Monitoring part quality across multiple printers using automated metrology
     - Presentation at the ASTM International Conference on Additive Manufacturing, Anaheim, CA, USA (online). November 2021.
 - Factory-level analysis of additively manufactured lattice structures using automated metrology
