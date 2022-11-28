@@ -62,6 +62,6 @@ Additive Manufacturing Quality - [King](https://kinglab.mechse.illinois.edu/) an
 Biomedical Imaging - [Barton Lab](http://bmeoptics.engr.arizona.edu/)
 {: style="font-size: 1em;"}
 * Designed mechanical system of micro-piezoelectric OCT/MPM endoscope for early-stage cancer detection
-* Derived and verified resonant frequencies and shapes for a base excited, cantilevered beam with an added tip mass
+* Derived and experimentally verified resonant frequencies and shapes for a base excited, cantilevered beam with added tip mass
 * Invented and manufactured custom surgical accessories for rodent analgesic delivery using AM and SolidWorks
 {: style="text-align: justify;"}
