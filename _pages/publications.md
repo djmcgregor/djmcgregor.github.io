@@ -63,6 +63,7 @@ detect-defects:
   url: https://doi.org/10.1007/s10845-024-02416-0
   journal_img: /assets/images/publications/cover_j_intelligent_mfg.jpg
   access: none
+  pdf: https://rdcu.be/d8tA5
 hto:
   image_path: /assets/images/publications/2024-hto-paper.jpg
   alt: additively manufactured patient specific medical devices
