@@ -4,7 +4,7 @@ classes: wide
 permalink: /publications-list/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2022-09-14T08:41:35-04:00
+last_modified_at: 2025-01-29T08:41:35-04:00
 ---
 # Publications
 
@@ -12,10 +12,15 @@ last_modified_at: 2022-09-14T08:41:35-04:00
 
 #### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-0. Bimrose, M.V., T. Hu, **D.J. McGregor**, J. Wang, S. Tawfick, C. Shao, Z. Liu, and W.P. King. "Automatic detection of hidden defects and qualification of additively manufactured parts using X-ray computed tomography and computer vision." *Submitted*.
+0. Bimrose, M.V., **D.J. McGregor**, C. Wood, S. Tawfick, and W.P. King. “Additive manufacturing source identification from photographs using deep learning.” *Submitted*.
 {: type="i"}
 
 #### Published / Accepted
+0. Mengesha, B.N., V. Aute, **D.J. McGregor**, and S. Azarm. [“Multi-objective surrogate optimization of process parameters for additive manufacturing with applications in laser powder bed fusion.”](https://doi.org/10.1115/DETC2024-143279) *Proc. ASME IDETC-CIE: Vol. 3A*, 2024.
+0. Bimrose, M.V., T. Hu, **D.J. McGregor**, J. Wang, S. Tawfick, C. Shao, Z. Liu, and W.P. King. [“Automatic detection of hidden defects and qualification of additively manufactured parts using X-ray computed tomography and computer vision.”](https://doi.org/10.1016/j.mfglet.2024.09.147) *Manufacturing Letters*, 41, 1216-1224, 2024.
+0. Mehta, M., M.V. Bimrose, **D.J. McGregor**, W.P. King, and C. Shao. [“Federated learning enables privacy-preserving and data-efficient dimension prediction and part qualification across additive manufacturing factories.”](https://doi.org/10.1016/j.jmsy.2024.04.031) *J. of Manufacturing Systems*, 74, 752-761, 2024.
+0. Bimrose, M.V., T. Hu, **D.J. McGregor**, J. Wang, S. Tawfick, C. Shao, Z. Liu, and W.P. King. [“Detecting and classifying hidden defects in additively manufactured parts using deep learning and X-ray computed tomography.”](https://doi.org/10.1007/s10845-024-02416-0) *J. of Intelligent Manufacturing*, 2024.
+0. Conway, C.H., **D.J. McGregor**, T. Antonsen, C. Wood, C. Shao, and W.P. King. [“Geometry repeatability and prediction for personalized medical devices made using multi-jet fusion additive manufacturing.”](https://doi.org/10.1016/j.addlet.2024.100200) *Additive Manufacturing Letters*, 9, 100200, 2024.
 0. **McGregor, D.J.**, M.V. Bimrose, C. Shao, S. Tawfick, and W.P. King. ["Using machine learning to predict dimensions and qualify diverse part designs across multiple additive machines and materials."](https://doi.org/10.1016/j.addma.2022.102848) *Additive Manufacturing*, 55, 102848, 2022.
 0. **McGregor, D.J.**, M.V. Bimrose, S. Tawfick, and W.P. King. ["Large batch metrology on internal features of additively manufactured parts using X-ray computed tomography."](https://doi.org/10.1016/j.jmatprotec.2022.117605) *J. of Materials Processing Technology*, 306, 117605, 2022.
 0. Yang, Y., **D.J. McGregor**, S. Tawfick, W.P. King, and C. Shao. ["Hierarchical data models improve the accuracy of feature level predictions for additively manufactured parts."](https://doi.org/10.1016/j.addma.2022.102621) *Additive Manufacturing*, 51, 102621, 2022.
@@ -29,7 +34,16 @@ last_modified_at: 2022-09-14T08:41:35-04:00
 {: reversed="reversed"}
 
 ---
+# Patents
+0. King, W.P., S. Tawfick, M. Bimrose, C. Wood, and **D.J. McGregor**. [“Conformance testing of manufactured parts via neural networks.”](https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12125190) *U.S. Patent No. 12125190*, 2024 Oct 22.
+{: reversed="reversed"}
+
+---
 # Presentations
+- Automated metrology enables additive manufacturing process insights and predictions
+    - Presentation at the ASTM International Conference on Advanced Manufacturing (ICAM), Atlanta, GA, USA. October 2024.
+- [Automated metrology and geometric evaluation for additive manufacturing](https://www.nationalacademies.org/event/41699_03-2024_statistical-and-data-driven-methods-for-additive-manufacturing-qualification-a-workshop)
+    - Invited presentation at the National Academies' workshop on Statistical and Data-driven Methods for Additive Manufacturing Qualification, Irvine, CA, USA. March 2024.
 - [Machine learning predicts additive manufacturing part quality: Tutorial on support vector regression](https://nanohub.org/resources/36374)
     - Invited presentation at nanoHUB (online). August 2022.
     - Hands on Python / Jupyter Notebook tutorial using SVR to predict the quality of AM parts

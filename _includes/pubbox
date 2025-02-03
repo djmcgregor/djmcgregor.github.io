@@ -29,10 +29,15 @@
 
     <div class="pubbox__item-impact">
       {% if pubbox.press %}
-        <div class="pubbox__item-news"><i>
-          <b>Selected Press:</b>
-          <a href="{{ pubbox.press_url }}" target="_blank">{{ pubbox.press }}</a> 
-        </i></div>
+      <div class="pubbox__item-news"><i>
+        <b>Selected Press:</b>
+        {% if pubbox.press_url and pubbox.press %}
+        <a href="{{ pubbox.press_url }}" target="_blank">{{ pubbox.press }}</a>
+        {% endif %}
+        {% if pubbox.press_url_2 and pubbox.press_2 %}
+        , <a href="{{ pubbox.press_url_2 }}" target="_blank">{{ pubbox.press_2 }}</a>
+        {% endif %}
+      </i></div>
       {% endif %}
     </div>
 
