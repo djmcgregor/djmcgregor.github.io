@@ -76,7 +76,7 @@ My website contains several Pages and Posts.
 Pages are added manually to navigation, and appear at the top of the webpage. These are the main destinations that
 outline my work and interests. 
 
-Posts feature interesting articles or content that I find relavent to my field. Minimal Mistakes provides a default
+Posts feature interesting articles or content that I find relevant to my field. Minimal Mistakes provides a default
 integration for posts. The homepage shows the last N posts and a slick pagination. There are also landing pages for
 posts to sort them chronologically, by categories, and by tags. 
 
