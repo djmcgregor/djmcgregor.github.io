@@ -4,12 +4,28 @@ classes: wide
 permalink: /publications/
 title: ""
 excerpt: "publications and presentations"
-last_modified_at: 2025-01-29T08:41:35-04:00
+last_modified_at: 2025-07-22T08:41:35-04:00
 # ASME papers: can post on website 12 months after. https://www.asme.org/publications-submissions/journals/information-for-authors/open-access
 # SPIE papers: only via email. https://www.spiedigitallibrary.org/article-sharing-policies
 # Elsevier: only via email. Accepted version can be posted on personal website immediately and on repositories after embargo (typically 24 months). preprint anywhere / anytime. https://service.elsevier.com/app/answers/detail/a_id/35715/supporthub/publishing/
 # Springer: accepted version after embargo. Use SharedIt link for free access! https://www.springernature.com/gp/authors/how-to-share
 
+fingerprint:
+  image_path: /assets/images/publications/2025-machine-fingerprint.png
+  alt: AI reads machine fingerprint off 3D printed part
+  title: 16. Additive manufacturing source identification from photographs using deep learning
+  journal: 'npj Advanced Manufacturing'
+  date: May 2025
+  abstract: We show that every 3D printer has a unique “fingerprint” that is imprinted on the parts it manufactures. By utilizing images and deep learning, we can read this fingerprint and accurately identify the specific machine that produced a given part. Our technique provides critical insights for customers and manufacturers, and enables innovative methods for part authentication, counterfeit detection, and quality management strategies.
+  press: 3D-printing-industry
+  press_url: https://3dprintingindustry.com/news/ai-model-identifies-origin-of-3d-printed-parts-with-98-accuracy-in-new-research-239900/
+  press_2: Scienmag
+  press_url_2: https://scienmag.com/deep-learning-identifies-additive-manufacturing-sources-from-photos/
+  doi: 10.1038/s44334-025-00031-2
+  url: https://doi.org/10.1038/s44334-025-00031-2
+  journal_img: /assets/images/publications/cover_npj.png
+  access: open
+  # pdf:
 am-opt:
   image_path: /assets/images/publications/2024-idetc-paper.png
   alt: heat exchanger for optimization problem
@@ -207,10 +223,11 @@ tate:
 
 #### In Review
 <!-- *Submitted/Revised/Accepted* -- Title of article  -->
-0. Bimrose, M.V., **D.J. McGregor**, C. Wood, S. Tawfick, and W.P. King. “Additive manufacturing source identification from photographs using deep learning.” *Submitted*.
+0. Chaudhary, A., Z. Wen, and **D.J. McGregor**. "Automated metrology for additively manufactured parts using deep learning and computer vision." *In Press*.
 {: type="i"}
 
 #### Published / Accepted
+{% include pubbox id="fingerprint" %}
 {% include pubbox id="am-opt" %}
 {% include pubbox id="detect-defects2" %}
 {% include pubbox id="fed-learning" %}
@@ -234,6 +251,10 @@ tate:
 
 ---
 # Presentations
+- Automated metrology for additively manufactured parts using deep learning and computer vision
+    - Presentation at the SPIE Optical Metrology conference, Munich, Germany. June 2025.
+- Automated metrology and machine learning predict additive manufacturing quality
+    - Presentation at Rapid + TCT 2025, Detroit, MI, USA. April 2025.
 - Automated metrology enables additive manufacturing process insights and predictions
     - Presentation at the ASTM International Conference on Advanced Manufacturing (ICAM), Atlanta, GA, USA. October 2024.
 - [Automated metrology and geometric evaluation for additive manufacturing](https://www.nationalacademies.org/event/41699_03-2024_statistical-and-data-driven-methods-for-additive-manufacturing-qualification-a-workshop)
